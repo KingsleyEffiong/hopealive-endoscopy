@@ -10,7 +10,7 @@ import {IconContext} from 'react-icons'
 
 
 function Navbar() {
-    const [sidebar, setSidebar] = useState(false);
+    const [sidebar,setSidebar] = useState(false);
 
     const showSidebar = ()=>setSidebar(!sidebar);
   return (
@@ -21,10 +21,11 @@ function Navbar() {
 
 <Link to="#" className='menu-bars' >
    
-<FaIcons.FaBars onClick={showSidebar}/>
+<AiIcons.AiOutlineBars onClick={showSidebar}/>
 </Link>
 <div id='logo'>
-    <h1>Hopealive Endoscopy & Fertility </h1>
+<img width='60' height='60' src='/Images/WhatsApp Image 2023-09-05 at 15.22.46.jpg'></img>
+    <h1> Hopealive Endoscopy & Fertility </h1>
   
     </div>
     <div id='social-icons'>
@@ -39,15 +40,15 @@ function Navbar() {
     </Link>
     </div>
 
-        </div>
+   
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             <ul className='nav-menu-items' onClick={showSidebar} >
     
                 <li className='navbar-toggle'>
                     <Link to="#" className='menu-bars'>
-                        <AiIcons.AiOutlineClose/>
+                        <AiIcons.AiOutlineCloseSquare/>
                     </Link>
-             
+         
                 </li>
                 {sidebarData.map((item, index) =>{
                     return(
@@ -61,6 +62,7 @@ function Navbar() {
                 })}
             </ul>
         </nav>
+        </div>
         </BrowserRouter>
         </IconContext.Provider>
 

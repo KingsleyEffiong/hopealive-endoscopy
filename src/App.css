@@ -6,12 +6,11 @@
 }
 
 #background-image{
-    background-image: url(/public/Images/5182571.jpg);
+    background-image:  url(/public/Images/pregnant.jpg)  ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    z-index: index 99; ;
     height: 100vh 
 }
 

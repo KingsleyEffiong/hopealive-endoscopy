@@ -1,21 +1,22 @@
+import React from "react";
+import { BrowserRouter,  Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar';
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
-import Home from './Components/Pages/Home'
+import Home from './Components/Pages/Home';
+import About from './Components/Pages/About';
+
 
 function App() {
   return (
     < >
 
-
-  <div id='background-image'>
-  <Navbar/>
 <BrowserRouter>
+<Navbar/>
 <Routes>
-  <Route path='/' element={<Home/>}/>
+  <Route path='/'element={<Home />}/>
+  <Route path='/about'element={<About />}/>
 </Routes>
 </BrowserRouter>
-</div>
     </>
   );
 }

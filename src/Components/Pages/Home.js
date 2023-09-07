@@ -1,17 +1,14 @@
 import React from 'react'
 import './Home.css'
 import * as FaIcons from 'react-icons/fa';
+import SliderData from '../SliderData';
+import ImageSlider from '../ImageSlider';
 
 function Home() {
   return (
     <>
-    
-        <header id='body-header'>
-       <div id='header-container'>
-        <h1 id='header-text'>Medical Advices</h1>
-        <p id='header-p'>For more than a decade, people from all walks of life have found answers at Hopealive Endoscopy & Fertility.</p>
-        </div>
-        </header>
+        <ImageSlider slides = {SliderData}/>
+        
         <main>
             <div id='body-content'>
                 

@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import { BrowserRouter, Link, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import './Navbar.css'
 import * as AiIcons from 'react-icons/ai';
@@ -16,15 +17,17 @@ function Navbar() {
   return (
     <>
     <IconContext.Provider value={{color:'#fff'}}>
-    <BrowserRouter>
     <div className="navbar">
 
 <Link to="#" className='menu-bars' >
    
 <AiIcons.AiOutlineBars onClick={showSidebar}/>
 </Link>
+
 <div id='logo'>
+<Link to='/'>
 <img width='60' height='60' src='/Images/WhatsApp Image 2023-09-05 at 15.22.46.jpg'></img>
+</Link>
     <h1> Hopealive Endoscopy & Fertility </h1>
   
     </div>
@@ -45,7 +48,7 @@ function Navbar() {
             <ul className='nav-menu-items' onClick={showSidebar} >
     
                 <li className='navbar-toggle'>
-                    <Link to="#" className='menu-bars'>
+                    <Link to="" className='menu-bars'>
                         <AiIcons.AiOutlineCloseSquare/>
                     </Link>
          
@@ -58,12 +61,13 @@ function Navbar() {
                                 <span>{item.title}</span> 
                             </Link>
                         </li>
+                    
                     ) 
                 })}
             </ul>
         </nav>
         </div>
-        </BrowserRouter>
+
         </IconContext.Provider>
 
     </>

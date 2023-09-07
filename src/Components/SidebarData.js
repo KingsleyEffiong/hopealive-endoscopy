@@ -1,9 +1,16 @@
 import React from 'react'
 import * as AiIcons from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 export const sidebarData = [ 
 
+    {
+        title: 'Home',
+        path: '/',
+        icon:<AiIcons.AiFillTaobaoSquare/>,
+        cName: 'nav-text'
+    },
     {
         title: 'About',
         path: '/about',

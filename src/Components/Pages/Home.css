@@ -1,7 +1,4 @@
-:root{
-    all-h1-font-color:#fff;
-    all-h1-font-size:2rem;
-}
+
 @keyframes change-image{
     0%{
         background-image: url(/public/Images/africa-humanitarian-aid-doctor-taking-care-patient.jpg);
@@ -58,3 +55,92 @@ p{
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 2rem;
 }
+button{
+    background-color: black;
+    padding: 1em;
+    border: none;
+    border-radius: 6px;
+    transition: 2s;
+}
+button a{
+    color:rgb(0, 255, 0);
+    font-size: 1.5rem;
+    transition: 2s;
+}
+button a:hover{
+    color: black;
+}
+button:hover{
+    background-color: white;
+}
+main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+.main-text{
+    font-size: 1.2rem;
+    line-height: 2.5em;
+}
+@keyframes change-box-1{
+    0%{
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    30%{
+        background-color: #2a1362;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60%{
+        background-color: #0b3641;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-color: #801b40;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+}
+@keyframes change-box-2{
+    0%{
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    30%{
+        background-color:  #2a1362;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60%{
+        background-color: #0b3641;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-color:  #801b40;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+}
+.main-container{
+    animation: change-box-1 20s ease-in-out infinite alternate;
+    width: 50%;
+    height: 700px;
+    padding: 1.9em;
+}
+.main-container:nth-of-type(2){
+    animation: change-box-2 20s ease-in-out infinite alternate;
+    width: 50%;
+    height: 700px;
+}
+

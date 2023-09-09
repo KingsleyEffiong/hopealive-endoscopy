@@ -52,6 +52,12 @@ function Home() {
         <main>
             <div className='main-container-2'>
              <h1>About Us</h1>
+             <p  className='main-text'>
+             HopeAlive Endoscopy and Fertility Clinic is a Multi-Gynaecology specialist facility, with well suited and convenient rooms. We offer an array of high quality and comprehensive gynaecological services across areas which include, In-Vitro Fertilization(IVF), Intrauterine Insemination(IUI), Sperm Freezing, Embryo Freezing, Follicular monitoring, Donor Program, Diagnostic and operative Laparoscopy, Hysteroscopy and Cystoscopy procedures, Antenatal services, Gynaecological services and Oncological services.
+             </p>
+           <div className='image-container'>
+            <img src='/Images/doctor212.jpg'></img>
+           </div>
             </div>
             <div className='main-container-2'>
                 <img src='/Images/building.jpg'></img>

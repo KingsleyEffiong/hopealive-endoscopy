@@ -28,7 +28,7 @@ function Navbar() {
 <Link to='/'>
 <img width='60' height='60' src='/Images/WhatsApp Image 2023-09-05 at 15.22.46.jpg'></img>
 </Link>
-    <h1> Hopealive Endoscopy & Fertility </h1>
+
   
     </div>
     <div id='social-icons'>

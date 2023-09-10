@@ -41,6 +41,9 @@ function Navbar() {
     <Link to=''>
         <FaIcons.FaWhatsapp className='social'/>
     </Link>
+    <Link to=''>
+        <FaIcons.FaYoutube className='social'/>
+    </Link>
     </div>
 
    

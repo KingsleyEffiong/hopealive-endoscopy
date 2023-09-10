@@ -1,6 +1,9 @@
 import React from 'react'
 import './Home.css'
 import * as FaIcons from 'react-icons/fa';
+import Map from '../Map';
+import Footer from '../Footer';
+
 
 
 function Home() {
@@ -8,8 +11,11 @@ function Home() {
     <>
         <header>
             <div className='header-container'>
+            <h1> HopeAlive Endoscopy Clinic.Inc</h1>
             <h1> Medical Advices </h1>
+            <div className='word'>
             <p>For more than a decade, people from the walks of life have found answers at  Hopealive Endoscopy & Fertility </p>
+            </div>
             <button>
                 <a href='tel:+2349161827769'><FaIcons.FaWhatsapp/>Have a Chat with Our Doctors </a>
             </button>
@@ -56,15 +62,19 @@ function Home() {
              HopeAlive Endoscopy and Fertility Clinic is a Multi-Gynaecology specialist facility, with well suited and convenient rooms. We offer an array of high quality and comprehensive gynaecological services across areas which include, In-Vitro Fertilization(IVF), Intrauterine Insemination(IUI), Sperm Freezing, Embryo Freezing, Follicular monitoring, Donor Program, Diagnostic and operative Laparoscopy, Hysteroscopy and Cystoscopy procedures, Antenatal services, Gynaecological services and Oncological services.
              </p>
            <div className='image-container'>
-            <img src='/Images/doctor212.jpg'></img>
+            <img width='300px' height='300px'  src='/Images/doctor212.jpg'></img>
+            <button>
+                <a href=''>Meet Our CMD</a>
+            </button>
            </div>
             </div>
             <div className='main-container-2'>
                 <img src='/Images/building.jpg'></img>
             </div>
         </main>
- 
+    <Map/>
 
+<Footer/>
     </>
   )
 }

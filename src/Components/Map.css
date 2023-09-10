@@ -1,0 +1,15 @@
+.map-container{
+    width: 100%;
+    height:fit-content;
+    background-color: #002c69;
+    text-align: center;
+
+}
+.icon{
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+.map-text{
+    color: rgb(222, 215, 215);
+    font-size: 2rem;
+}

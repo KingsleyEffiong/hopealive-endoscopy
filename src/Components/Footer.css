@@ -13,3 +13,25 @@ h3{
     font-size: 1.5rem;
 }
 
+#social{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    margin: 0px 1.3rem;
+ color: #002c69;
+}
+
+
+@media screen and (max-width:550px){
+    .footer-container{
+        background-color: rgb(250, 250, 250);
+        width: 100%;
+        height: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+

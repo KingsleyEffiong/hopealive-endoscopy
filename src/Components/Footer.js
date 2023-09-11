@@ -7,18 +7,18 @@ function Footer() {
     <>
         <div className='footer-container'>
 <h3>HopeAlive Endoscopy Clinic.Inc </h3>
-<div id='social-icons'>
+<div id='social'>
   <Link to=''>
-     <FaIcons.FaFacebook className='social'/>
+     <FaIcons.FaFacebook id='social'/>
   </Link> 
    <Link to=''>
-     <FaIcons.FaTwitter className='social'/>
+     <FaIcons.FaTwitter id='social'/>
    </Link>
     <Link to=''>
-        <FaIcons.FaWhatsapp className='social'/>
+        <FaIcons.FaWhatsapp  id='social'/>
     </Link>
     <Link to=''>
-        <FaIcons.FaYoutube className='social'/>
+        <FaIcons.FaYoutube  id='social'/>
     </Link>
     </div>
         </div>

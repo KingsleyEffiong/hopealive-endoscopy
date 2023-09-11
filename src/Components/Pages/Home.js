@@ -69,7 +69,7 @@ function Home() {
            </div>
             </div>
             <div className='main-container-2'>
-                <img src='/Images/building.jpg'></img>
+                <img  width='700' height='700' src='/Images/building.jpg'></img>
             </div>
         </main>
     <Map/>

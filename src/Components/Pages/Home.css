@@ -307,6 +307,31 @@ img{
             height: 900px;
         }
 }
+
+@media screen and (max-width: 660px) {
+    h1{
+        color:#fff;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.7rem;
+        }
+        p{
+            color:#fff;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.3rem;
+        }
+        button a{
+            color:rgb(255, 255, 255);
+            font-size: 1.2rem;
+            transition: 2s;
+        }
+        button{
+            background-color: black;
+            padding: 0.4em;
+            border: none;
+            border-radius: 6px;
+            transition: 2s;
+        }
+}
 @media screen and (max-width:550px){
     header{
         animation: change-image 20s ease-in-out infinite alternate;

@@ -13,7 +13,7 @@
         background-position: center;
     }
     40%{
-        background-image: url(/public/Images/african-american-female-doctor-operating-room-putting-drugs-through-iv-surgery-concepts.jpg);
+        background-image: url(/public/Images/IMG-5252.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -25,13 +25,13 @@
         background-position: center;
     }
     80%{
-        background-image: url(/public/Images/IMG-5252.jpg);
+        background-image: url(/public/Images/scan.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     100%{
-        background-image: url(/public/Images/scan.jpg);
+        background-image: url(/public/Images/african-american-female-doctor-operating-room-putting-drugs-through-iv-surgery-concepts.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

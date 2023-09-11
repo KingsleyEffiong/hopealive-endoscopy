@@ -4,31 +4,37 @@
         background-image: url(/public/Images/africa-humanitarian-aid-doctor-taking-care-patient.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     20%{
         background-image: url(/public/Images/doctor.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     40%{
         background-image: url(/public/Images/african-american-female-doctor-operating-room-putting-drugs-through-iv-surgery-concepts.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     60%{
         background-image: url(/public/Images/injection.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     80%{
         background-image: url(/public/Images/IMG-5252.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
     100%{
         background-image: url(/public/Images/scan.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
 
 }
@@ -36,7 +42,6 @@ header{
     animation: change-image 20s ease-in-out infinite alternate;
     height: 1000px;
     width: 100%;
-
 }
 .header-container{
     position: relative;
@@ -48,7 +53,7 @@ header{
 h1{
 color:#fff;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 3rem;
+font-size: 2.3rem;
 }
 p{
     color:#fff;
@@ -74,8 +79,8 @@ button:hover{
     background-color: white;
 }
 .word{
-    background-color: #2a1362;
-    width: 600px;
+    background-color: #002c69;
+    width: 100%;
     height: fit-content;
     padding: 1rem;
 }
@@ -195,3 +200,85 @@ background-color: #002c69;
 img{
     border-radius: 15px;
 }
+
+@media screen and (max-width: 1180px){
+    .header-container{
+        position: relative;
+        top: 0%;
+        left: -10%;
+        width: 80%;
+        padding: 2rem;
+    }
+        header{
+        animation: change-image 20s ease-in-out infinite alternate;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;;
+        width: 100%;
+    }
+    .word{
+        background-color:  #002c69;
+        width: 80%;
+        height: fit-content;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 750px){
+    header{
+        animation: change-image 20s ease-in-out infinite alternate;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;;
+        width: 100%;
+    }
+       
+    .header-container{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+}
+@media screen and (max-width:550px){
+    header{
+        animation: change-image 20s ease-in-out infinite alternate;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;;
+        width: 100%;
+    }
+    h1{
+        color:#fff;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        }
+        p{
+            color:#fff;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        }
+        button a{
+            color:rgb(255, 255, 255);
+            font-size: 0.8rem;
+            transition: 2s;
+        }
+        button{
+            background-color: black;
+            padding: 0.4em;
+            border: none;
+            border-radius: 6px;
+            transition: 2s;
+        }
+    }

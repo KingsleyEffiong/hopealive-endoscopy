@@ -108,3 +108,28 @@
 span{
     margin-left: 16px;
 }
+
+@media screen and (max-width:700px){
+
+    .navbar{
+        background-color: #002c69;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        z-index: 1;
+        top: 0;
+    }
+    #social-icons{
+        font-size: 2rem;
+        width: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: fit-content;
+       
+    }
+}

@@ -1,0 +1,47 @@
+.about-container{
+    background-color: #4f87d5;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+ 
+}
+.body-container{
+    width: 40%;
+    height: fit-content;
+    margin: 0 auto auto;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    font-size: 2rem;
+}
+.about-image{
+    width: 450px;
+    height:300px;
+    position: absolute;
+    top: 35%;
+    border-radius: 0px;
+}
+.about-content{
+    font-size: 20px;
+    color: black !important;
+    margin-top: 5.5em !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 3rem !important;
+
+}
+.about-content::first-letter{
+    font-size: 40px;
+}

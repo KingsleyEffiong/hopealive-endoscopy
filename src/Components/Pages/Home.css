@@ -48,6 +48,7 @@ header{
     top: 25%;
     width: 50%;
     padding: 2rem;
+    
 }
 
 h1{
@@ -58,8 +59,13 @@ font-size: 2.3rem;
 }
 p{
     color:#fff;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
 font-size: 2rem;
+}
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
 }
 button{
     background-color: black;
@@ -166,7 +172,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 font-size: 2rem;
 }
 .box2{
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 table{
     color: rgb(255, 255, 255);
@@ -180,6 +186,8 @@ table{
 }
 tr, td{
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
 }
 .main-container-2{
 background-color: #002c69;

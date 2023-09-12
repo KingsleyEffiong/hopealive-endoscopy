@@ -1,6 +1,9 @@
 .about-container{
-    background-color: #4f87d5;
-    height: 400px;
+    background-image: url(/public/Images/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     width: 100%;
     justify-content: center;
     flex-direction: column;
@@ -20,28 +23,82 @@
 
 h2{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: #fff;
-    position: absolute;
-    top: 30%;
+    font-family: 'tahoma';
+    margin-top: 2em;
     font-size: 2rem;
+    color:#235687
 }
 .about-image{
     width: 450px;
     height:300px;
-    position: absolute;
-    top: 35%;
     border-radius: 0px;
 }
 .about-content{
     font-size: 20px;
     color: black !important;
-    margin-top: 5.5em !important;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: justify;
+    line-height: 3rem !important;
+
+}
+.about-content-1{
+    font-size: 20px;
+    color: black !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
     text-align: justify;
     line-height: 3rem !important;
 
 }
 .about-content::first-letter{
     font-size: 40px;
+}
+.about-doc{
+    width: 450px;
+    margin-top: 2rem;
+    height: 450px;
+    border-radius: 0px;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 1.3rem;
+}
+@media screen and (max-width:1250px){
+    .body-container{
+        width: 60%;
+        height: fit-content;
+        margin: 0 auto auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:800px){
+    .body-container{
+        width: 80%;
+        height: fit-content;
+        margin: 0 auto auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    .about-doc{
+        width: 300px;
+        margin-top: 2rem;
+        height: 300px;
+        border-radius: 0px;
+    }
+    .about-image{
+        width: 300px;
+        height:300px;
+        border-radius: 0px;
+    }
 }

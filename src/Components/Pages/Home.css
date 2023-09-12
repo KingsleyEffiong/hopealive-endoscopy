@@ -52,7 +52,8 @@ header{
 
 h1{
 color:#fff;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Times New Roman', Times, serif;
+font-style: oblique;
 font-size: 2.3rem;
 }
 p{
@@ -69,7 +70,9 @@ button{
 }
 button a{
     color:rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 1.3rem;
     transition: 2s;
 }
 button a:hover{
@@ -81,6 +84,9 @@ button:hover{
 .word{
     background-color: #002c69;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 1.3rem;
     height: fit-content;
     padding: 1rem;
 }

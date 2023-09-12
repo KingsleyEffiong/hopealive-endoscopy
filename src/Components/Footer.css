@@ -9,7 +9,8 @@
 }
 h3{
     color: #002c69;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
     font-size: 1.5rem;
 }
 
@@ -32,6 +33,18 @@ h3{
         align-items: center;
         justify-content: space-around;
     }
-
+    #social{
+        display: flex;
+        flex-direction: row;
+        font-size: 1.2rem;
+        margin: 0px 1.3rem;
+     color: #002c69;
+    }
+    h3{
+        color: #002c69;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-size: 1.2rem;
+    }
 }
 

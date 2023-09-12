@@ -64,7 +64,7 @@ function Home() {
            <div className='image-container'>
             <img width='300px' height='300px'  src='/Images/doctor212.jpg'></img>
             <button>
-                <a href=''>Meet Our CMD</a>
+                <a href='/about'>Meet Our CMD</a>
             </button>
            </div>
             </div>

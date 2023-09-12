@@ -15,6 +15,22 @@ function About() {
 We are strategically located in the heart of the city of Calabar, Cross-River State situated in the south-south region of Nigeria. The Clinic has been fully equipped and carefully designed with modern/sophisticated medical equipment as well as Professional, experienced and very friendly staff that comprises of both medical practitioners and other administration staff to provide every patient/client the best quality of care they deserve in keeping with our mantra of Restoring Hope and Healthy Life.  We are accessible and readily available 24/7 to attend to our esteemed patients/client.
 
     </p>
+    <img src='/Images/doctor212.jpg' className='about-doc'/>
+    <h4>Dr. Ekpo Edet </h4>
+    <p className='about-content'>
+    Dr. Ekpo Edet is a Consultant Gynaecologist and Obstetrician, Advanced Gynaecological Endoscopy Surgeon and IVF Specialist with over 20 years of postgraduate experience. He is deeply passionate about reproductive medicine and minimal access surgery and has a wealth of experience in both fields. He holds two fellowships from Minimal Access Surgery, India and West African College of Surgeons, Nigeria. 
+    </p><br/>
+    <p className='about-content-1'>
+    He has been extensively engaged in medical education and trainings as he is Lecturer with the Department of Gynaecology and Obstetrics, Faculty of Medicine in the University of Calabar, Nigeria. He has anchored and facilitated trainings in different fields of medicine including, PMTCT, PreP study on HIV, ELSS, minimal access among others.
+    </p><br/>
+    <p className='about-content-1'>
+    His leadership experiences include, Head of Gynaecological Endoscopy Unit, Chief Consultant, Residency Training Co-ordinator, Academic Co-ordinator all in Department of Gynaecology and Obstetrics University of Calabar Teaching Hospital, Calabar, Cross-River State Facilitator for MAPs and ELSS projects. He is an active member of some renowned medical associations like, The Nigerian Medical Association, Society of Obstetrician and Gynaecologist of Nigeria, Association of Gynaecology Endoscopy Surgeons, World Association of Laparoscopic Surgeons, Academic Staff Union of Universities among others.
+    </p><br/>
+    <p className='about-content-1'>
+    Dr. Edet has featured and written over 20 medical publications and research Journals alongside other medical practitioners that have gained both local and international recognition/acknowledgement. He has attended a host of medical conferences around the world.
+Dr. Ekpo Edet is the founder and Medical Director of HopeAlive Endoscopy and Fertility Clinic, Calabar, Cross-River State, Nigeria.
+
+    </p>
 </div>
 <Footer/>
 

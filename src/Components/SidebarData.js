@@ -17,12 +17,12 @@ export const sidebarData = [
         icon:<AiIcons.AiFillTaobaoSquare/>,
         cName: 'nav-text'
     },
-    {
-        title: 'Contact',
-        path: '/contact',
-        icon:<AiIcons.AiFillContacts/>,
-        cName: 'nav-text'
-    },
+    // {
+    //     title: 'Contact',
+    //     path: '/contact',
+    //     icon:<AiIcons.AiFillContacts/>,
+    //     cName: 'nav-text'
+    // },
     {
         title: 'Services',
         path: '/services',

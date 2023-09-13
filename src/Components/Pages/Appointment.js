@@ -37,10 +37,7 @@ function Appointment() {
             <label  for='Date' name='dateofbirth'>Date of Birth</label>
             <input type='date' name='dateofbirth'/>
  </span>
-<span className='content'>     
-             <label  for='file' name='file'>File</label>
-            <input type='file' name='file'/>
- </span>   
+
  <span className='content'>
     <label for='address' name='address'>Address</label>
     <input type='address' name='address'></input>

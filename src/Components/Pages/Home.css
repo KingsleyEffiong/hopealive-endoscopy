@@ -36,7 +36,9 @@
         background-size: cover;
         background-position: center;
     }
-
+h1{
+    color: rgb(255, 255, 255);
+}
 }
 header{
     animation: change-image 20s ease-in-out infinite alternate;
@@ -192,6 +194,7 @@ tr, td{
 .main-container-2{
 background-color: #002c69;
     width: 50%;
+    color: #fff;
     height: 1000px;
     padding: 1.9em;
 }

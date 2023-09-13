@@ -25,14 +25,11 @@ function Appointment() {
  </span>
 
     <span className='content'>
-            <label  for='Date' name='appointment-date'>Appointment Date</label>
-          <input type='date' name='appointment-date' className='date'/>
+            <label  for='Date' name='appointment-date'>Appointment Date and Time</label>
+          <input type='datetime-local' name='appointment-date' className='date'/>
 </span> 
  
- <span className='content'>     
-            <label  for='Date' name='appointment-time'>Appointment Time</label>
-            <input type='time' name='appointment-time'/>
- </span>    
+   
 <span className='content'>
             <label  for='Date' name='dateofbirth'>Date of Birth</label>
             <input type='date' name='dateofbirth'/>

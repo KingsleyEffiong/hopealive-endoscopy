@@ -51,7 +51,7 @@ header{
     
 }
 
-h1{
+.head{
 color:#fff;
 font-family: 'Times New Roman', Times, serif;
 font-style: oblique;
@@ -323,14 +323,14 @@ img{
 }
 
 @media screen and (max-width: 660px) {
-    h1{
+    .head{
         color:#fff;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 1.7rem;
         }
         p{
             color:#fff;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:'Times New Roman', Times, serif;
         font-size: 1.3rem;
         }
         button a{
@@ -358,7 +358,7 @@ img{
     }
     .main-heading{
         color:#fff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 1.5rem;
     text-align: center;
     }
@@ -386,14 +386,14 @@ img{
             height: 1300px;
             padding: 1.9em;
         }
-    h1{
+    .head{
         color:#fff;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 1rem;
         }
         p{
             color:#fff;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:'Times New Roman', Times, serif;
         font-size: 1rem;
         }
         button a{

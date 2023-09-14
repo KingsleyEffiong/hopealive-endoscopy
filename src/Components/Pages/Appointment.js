@@ -9,13 +9,12 @@ function Appointment() {
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [formData, setFormData] = useState({
-      name: 'Your Full Name',
-      email: 'Your Mail',
-      message: 'Drop a Message',
-      appointment: 'Your Full Name',
-      birth_date: 'Your Birth Date',
-      address:'Your Address',
-      report:'Your Report'
+  
+      // message: 'Drop a Message',
+      // appointment: 'Your Full Name',
+      // birth_date: 'Your Birth Date',
+      // address:'Your Address',
+      // report:'Your Report'
   });
   
   const {
@@ -168,7 +167,7 @@ const handleSubmit = (e) => {
         onChange = {
             handleChange
         }
-        required/>
+        required placeholder='your address'/>
  </span >
  <span className='content'>
  <label
@@ -183,7 +182,7 @@ const handleSubmit = (e) => {
         onChange = {
             handleChange
         }
-        required/>
+        required placeholder='type in your message'/>
  </span >
 <span className='content'>
         <input className='button' type='submit' value='Send Appointment Form'/>

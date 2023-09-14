@@ -32,16 +32,14 @@ function Navbar() {
   
     </div>
     <div id='social-icons'>
-  <Link to=''>
+  <Link to='https://www.facebook.com/profile.php?id=61551202112097'>
      <FaIcons.FaFacebook className='social'/>
   </Link> 
-   <Link to=''>
+   <Link to='https://twitter.com/Hopealive152'>
      <FaIcons.FaTwitter className='social'/>
    </Link>
-    <Link to=''>
-        <FaIcons.FaWhatsapp className='social'/>
-    </Link>
-    <Link to=''>
+
+    <Link to='https://www.youtube.com/@HopealiveClinic'>
         <FaIcons.FaYoutube className='social'/>
     </Link>
     </div>

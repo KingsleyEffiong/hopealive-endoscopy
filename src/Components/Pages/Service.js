@@ -1,7 +1,10 @@
 import React from 'react'
 import './Service.css'
+import Footer from '../Footer'
 function Service() {
+
   return (
+    <>
     <div id='container'>
     <h1>Our Services</h1>
 
@@ -11,11 +14,11 @@ We offer holistic Fertility, Endoscopy and Gygnaecological services to our valua
     </span>
     <div className='content-container'>
     <span className='content-text'>
-      <img src='/Images/fertility-services-intro.jpg'className='service-image'/>
+      <img src='/Images/fer.jpg'className='service-image'/>
     Fertility Services:<br/> Including In-Vitro Fertilization (IVF), Intrauterine Insemination (IUI), Embryo Freezing, Sperm Freezing, Follicular Monitoring and Donor Program.
     </span>
     <span className='content-text'>
-    <img src='/Images/general-minimal-access-banner.jpg' className='service-image'/>
+    <img src='/Images/scan.jpg' className='service-image'/>
     Minimal Access Services: <br/>Including Laparoscopy, Hysteroscopy and Cystoscopy.
     </span>
     <span className='content-text'>
@@ -52,7 +55,10 @@ We offer holistic Fertility, Endoscopy and Gygnaecological services to our valua
   	Oncological Surgeries : <br/> Including Ovarian cancers, Cervical and Endometrial Cancers.
     </span>
     </div>
+    <Footer/>
         </div>
+
+        </>
   )
 }
 

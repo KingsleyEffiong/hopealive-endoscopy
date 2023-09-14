@@ -8,16 +8,14 @@ function Footer() {
         <div className='footer-container'>
 <h3>HopeAlive Endoscopy Clinic.Inc </h3>
 <div id='social'>
-  <Link to=''>
+  <Link to='https://www.facebook.com/profile.php?id=61551202112097'>
      <FaIcons.FaFacebook id='social'/>
   </Link> 
-   <Link to=''>
+   <Link to='https://twitter.com/Hopealive152'>
      <FaIcons.FaTwitter id='social'/>
    </Link>
-    <Link to=''>
-        <FaIcons.FaWhatsapp  id='social'/>
-    </Link>
-    <Link to=''>
+
+    <Link to='https://www.youtube.com/@HopealiveClinic'>
         <FaIcons.FaYoutube  id='social'/>
     </Link>
     </div>

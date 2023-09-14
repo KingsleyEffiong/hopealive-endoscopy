@@ -17,7 +17,7 @@ function Home() {
             <p>For more than a decade, people from the walks of life have found answers at  Hopealive Endoscopy & Fertility </p>
             </div>
             <button>
-                <a href='tel:+2349161827769'><FaIcons.FaWhatsapp/>Have a Chat with Our Doctors </a>
+                <a href='tel:+2349166587219'><FaIcons.FaPhone/>Emergency Call</a>
             </button>
             </div>
         </header>
@@ -41,15 +41,15 @@ function Home() {
         <table >
             <tr>
                 <td>Monday to Friday</td>
-                <td>7.00 to 24.00</td>
+                <td>24/7</td>
             </tr>
             <tr>
                 <td>Saturday</td>
-                <td>9.00 to 24.00</td>
+                <td>24/7</td>
             </tr>
             <tr>
                 <td>Sunday</td>
-                <td>9.00 to 24.00</td>
+                <td>24/7</td>
             </tr>
         </table>
             </div>

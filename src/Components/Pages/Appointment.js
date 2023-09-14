@@ -74,7 +74,7 @@ const handleSubmit = (e) => {
 <label
         for = "user_name"
         name = ""
-        id = "user_name" > Name </label> 
+        id = "user_name" > Full Name </label> 
         <input type = "text"
         name = "name"
         value = {
@@ -83,7 +83,7 @@ const handleSubmit = (e) => {
         onChange = {
             handleChange
         }
-        placeholder = "Your Full Name"
+        placeholder = "your Full Name"
         required/>
  </span>
  <span className='content'>
@@ -91,7 +91,7 @@ const handleSubmit = (e) => {
  <label
         for = "user_email"
         name = "user_email"
-        id = "user_email" > Email </label> 
+        id = "user_email" > Your Email </label> 
         <input type = "email"
         name = "email"
         value = {
@@ -100,7 +100,7 @@ const handleSubmit = (e) => {
         onChange = {
             handleChange
         }
-        placeholder = "Your Mail"
+        placeholder = "your Mail"
         required/>
 </span>
 <span className='content'>
@@ -117,7 +117,7 @@ const handleSubmit = (e) => {
         onChange = {
             handleChange
         }
-        placeholder = "Your Number"
+        placeholder = "your Number"
         required/>
  </span>
 

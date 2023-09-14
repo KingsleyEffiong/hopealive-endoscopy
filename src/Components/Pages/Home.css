@@ -41,7 +41,7 @@ h1{
 }
 }
 header{
-    animation: change-image 20s ease-in-out infinite alternate;
+    animation: change-image 30s ease-in-out infinite alternate;
     height: 1000px;
     width: 100%;
 }

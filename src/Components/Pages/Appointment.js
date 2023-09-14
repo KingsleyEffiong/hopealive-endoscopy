@@ -29,7 +29,7 @@ function Appointment() {
           <input type='datetime-local' name='appointment-date' className='date'/>
 </span> 
  
-   
+  
 <span className='content'>
             <label  for='Date' name='dateofbirth'>Date of Birth</label>
             <input type='date' name='dateofbirth'/>

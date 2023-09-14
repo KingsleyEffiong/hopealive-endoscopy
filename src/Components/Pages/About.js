@@ -15,6 +15,29 @@ function About() {
 We are strategically located in the heart of the city of Calabar, Cross-River State situated in the south-south region of Nigeria. The Clinic has been fully equipped and carefully designed with modern/sophisticated medical equipment as well as Professional, experienced and very friendly staff that comprises of both medical practitioners and other administration staff to provide every patient/client the best quality of care they deserve in keeping with our mantra of Restoring Hope and Healthy Life.  We are accessible and readily available 24/7 to attend to our esteemed patients/client.
 
     </p>
+    <h1>Mission</h1>
+    <p className='about-content'>
+    Work as a team to meet the demands of the community and standing out as the first class  healthcare center by  providing clinical excellence, advanced and compassionate patient care utilizing the cutting edge technology and adopting the finest healthcare standards.
+    </p><br/>
+    <h1>Our Values</h1>
+    <ul>
+      <li>Patient Satisfaction</li>
+      <li>Patient Safety</li>
+      <li>Commitment to Our Community</li>
+      <li>Customer-Centered Services at Reasonable Cost</li>
+      <li>Commitment to Our Community</li>
+      <li>Professionalism</li>
+      <li>Team Work</li>
+      <li>Striving for Continuous Improvement</li>
+      <li>Open Communication</li>
+      <li>Motivation</li>
+      <li>Equal Opportunities</li> 
+    </ul><br/>
+    <h1>Vision</h1>
+    <p className='about-content'>
+    To be the most trusted healthcare provider in medical excellence and patient experience.
+    </p><br/>
+    <h1>Meet Our CMD</h1>
     <img src='/Images/doctor212.jpg' className='about-doc'/>
     <h4>Dr. Ekpo Edet </h4>
     <p className='about-content'>

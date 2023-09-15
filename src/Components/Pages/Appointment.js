@@ -39,7 +39,7 @@ const handleSubmit = (e) => {
 
   // TODO: Add your Email.js configuration and service ID here
   const serviceID = 'service_1zhl2qp';
-  const templateID = 'template_8haqptt';
+  const templateID = 'appointment_form';
   const userID = '5BAQ9E94aLjwu41KG';
 
   emailjs

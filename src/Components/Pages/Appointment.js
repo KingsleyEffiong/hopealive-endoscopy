@@ -10,18 +10,18 @@ function Appointment() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [formData, setFormData] = useState({
   
-      // message: 'Drop a Message',
-      // appointment: 'Your Full Name',
-      // birth_date: 'Your Birth Date',
-      // address:'Your Address',
-      // report:'Your Report'
+    //   message: 'Drop a Message',
+    //   appointment: 'Your Full Name',
+    //   birth_date: 'Your Birth Date',
+    //   address:'Your Address',
+    //   report:'Your Report'
   });
   
   const {
     name,
     email,
-    phone_number,
-    appointment,
+    phone,
+    datetime_local,
     birth_date,
     address,
     report
@@ -38,9 +38,9 @@ const handleSubmit = (e) => {
   e.preventDefault();
 
   // TODO: Add your Email.js configuration and service ID here
-  const serviceID = 'service_1zhl2qp';
-  const templateID = 'appointment_form';
-  const userID = '5BAQ9E94aLjwu41KG';
+  const serviceID = 'service_2w6rw9z';
+  const templateID = 'template_e7zyhmf';
+  const userID = 'nniBSLGpl2GLckheR';
 
   emailjs
       .sendForm(serviceID, templateID, e.target, userID)
@@ -48,13 +48,13 @@ const handleSubmit = (e) => {
           console.log('Email sent successfully!');
           setModalIsOpen(true);
           setFormData({
-              name: 'Your Full Name',
-              email: 'Your Mail',
-              phone_number: 'Drop a Message',
-              appointment:'appointment',
-              birth_date:'birth',
-              address:'address',
-              report:'report',
+              name: '',
+              email: '',
+              phone: '',
+              datetime:'',
+              birth_date:'',
+              address:'',
+              report:'',
           });
       })
       .catch((error) => {
@@ -107,12 +107,12 @@ const handleSubmit = (e) => {
                     
  <label
         for = "user_phone_number"
-        name = "user_phone_number"
+        name = "phone"
         id = "user_phone_number" > Phone Number </label> 
-        <input type = "text"
-        name = "phone_number"
+        <input type = "number"
+        name = "phone"
         value = {
-            phone_number
+            phone
         }
         onChange = {
             handleChange
@@ -124,12 +124,12 @@ const handleSubmit = (e) => {
     <span className='content'>
     <label
         for = "user_appointment"
-        name = "user_appointment"
+        name = "datetime-local"
         id = "user_appointment" > Appointment </label> 
         <input type = "datetime-local"
-        name = "appointment"
+        name = "datetime-local"
         value = {
-            appointment
+            datetime_local
         }
         onChange = {
             handleChange
@@ -141,10 +141,10 @@ const handleSubmit = (e) => {
 <span className='content'>
 <label
         for = "user_date_of_birth"
-        name = "user_date_of_birth"
+        name = "date"
         id = "user_date_of_birtht" > Date of Birth </label> 
         <input type = "date"
-        name = "birth_date"
+        name = "date"
         value = {
            birth_date
         }
@@ -157,7 +157,7 @@ const handleSubmit = (e) => {
  <span className='content'>
  <label
         for = "user_address"
-        name = "user_address"
+        name = "address"
         id = "user_address" > Your Address </label> 
         <input type = "text"
         name = "address"
@@ -172,7 +172,7 @@ const handleSubmit = (e) => {
  <span className='content'>
  <label
         for = "user_report"
-        name = "user_report"
+        name = "report"
         id = "user_report" > Your Report </label> 
         <textarea cols='55' rows='5'
         name = "report"

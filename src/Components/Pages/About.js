@@ -43,6 +43,7 @@ We are strategically located in the heart of the city of Calabar, Cross-River St
     <p className='about-content'>
     Dr. Ekpo Edet is a Consultant Gynaecologist and Obstetrician, Advanced Gynaecological Endoscopy Surgeon and IVF Specialist with over 20 years of postgraduate experience. He is deeply passionate about reproductive medicine and minimal access surgery and has a wealth of experience in both fields. He holds two fellowships from Minimal Access Surgery, India and West African College of Surgeons, Nigeria. 
     </p><br/>
+    <img src='/Images/award.jpg' className='about-doc'/>
     <p className='about-content-1'>
     He has been extensively engaged in medical education and trainings as he is Lecturer with the Department of Gynaecology and Obstetrics, Faculty of Medicine in the University of Calabar, Nigeria. He has anchored and facilitated trainings in different fields of medicine including, PMTCT, PreP study on HIV, ELSS, minimal access among others.
     </p><br/>

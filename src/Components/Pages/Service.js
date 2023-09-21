@@ -22,7 +22,7 @@ We offer holistic Fertility, Endoscopy and Gygnaecological services to our valua
     Minimal Access Services: <br/>Including Laparoscopy, Hysteroscopy and Cystoscopy.
     </span>
     <span className='content-text'>
-    <img src='/Images/Examples-of-laparoscopic-surgery.png'className='service-image'/>
+    <img src='/Images/laparoscopy-inline-46cf03.jpg'className='service-image'/>
     The Laparoscopy procedures covers: <br/> Diagnostic Laparoscopy and Dye test, Laparoscopic Myomectomy, Ovarian Cystectomy, Hysterectomy, Adhesiolysis, Tubal Surgeries, Ectopic Gestation, Tubal Ligation, Ovarian drilling, Endometrosis and Adenomyomectomy.
     </span>
     </div>

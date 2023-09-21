@@ -38,9 +38,9 @@ const handleSubmit = (e) => {
   e.preventDefault();
 
   // TODO: Add your Email.js configuration and service ID here
-  const serviceID = 'service_2w6rw9z';
-  const templateID = 'template_e7zyhmf';
-  const userID = 'nniBSLGpl2GLckheR';
+  const serviceID = 'service_1zhl2qp';
+  const templateID = 'appointment_form';
+  const userID = '5BAQ9E94aLjwu41KG';
 
   emailjs
       .sendForm(serviceID, templateID, e.target, userID)
@@ -137,23 +137,6 @@ const handleSubmit = (e) => {
         required/>
 </span> 
  
-  
-<span className='content'>
-<label
-        for = "user_date_of_birth"
-        name = "date"
-        id = "user_date_of_birtht" > Date of Birth </label> 
-        <input type = "date"
-        name = "date"
-        value = {
-           birth_date
-        }
-        onChange = {
-            handleChange
-        }
-        required/>
- </span>
-
  <span className='content'>
  <label
         for = "user_address"

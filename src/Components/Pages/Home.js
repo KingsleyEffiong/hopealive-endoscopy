@@ -11,8 +11,7 @@ function Home() {
     <>
         <header>
             <div className='header-container'>
-            <h1 className='head'> HopeAlive Endoscopy Clinic</h1>
-            <h1 className='head'> Medical Advices </h1>
+            <h1 className='head'> HopeAlive Endoscopy & Fertility Clinic</h1>
             <div className='word'>
             <p>For more than a decade, people from the walks of life have found answers at  Hopealive Endoscopy & Fertility </p>
             </div>
